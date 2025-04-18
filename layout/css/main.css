@@ -1,0 +1,70 @@
+:root {
+  --Yellow: #f4d04e;
+  --White: #ffffff;
+  --Gray-500: #6b6b6b;
+  --Gray-950: #121212;
+}
+
+body {
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-yellow {
+  background-color: var(--Yellow);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  background-color: var(--White);
+  width: 340px;
+  padding: 10px;
+  align-items: start;
+  gap: 10px;
+}
+.container .img {
+  width: 100%;
+}
+.container .text-yellow {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .text-yellow:hover {
+  color: var(--Yellow);
+}
+.container span.learning {
+  padding: 3px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.container p.text {
+  color: var(--Gray-500);
+  font-size: 0.8rem;
+}
+.container .profile {
+  flex-direction: row;
+  gap: 15px;
+}
+.container .profile img {
+  width: 50px;
+}
+.container .profile span {
+  text-transform: capitalize;
+}
+
+.rad {
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */
